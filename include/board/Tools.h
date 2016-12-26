@@ -33,6 +33,7 @@
 
 #if defined( _MSC_VER )
 #define secured_sprintf sprintf_s
+#pragma warning(disable:4996)
 #else
 #define secured_sprintf snprintf
 #endif // defined( _MSC_VER )

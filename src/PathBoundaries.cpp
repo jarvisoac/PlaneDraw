@@ -26,6 +26,10 @@
 #include "BoardConfig.h"
 #include "board/PathBoundaries.h"
 #include "board/Shapes.h"
+#include <algorithm>
+#include <iterator>
+#include <set>
+
 namespace LibBoard {
 
 namespace Tools {

@@ -26,6 +26,7 @@
 #ifndef _BOARD_POINT_H_
 #define _BOARD_POINT_H_
 
+#define _USE_MATH_DEFINES
 #include <cmath>
 #include <iostream>
 #include <vector>
