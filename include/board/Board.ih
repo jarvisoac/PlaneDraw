@@ -25,7 +25,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 inline
 void
@@ -91,4 +91,4 @@ Board::fillGouraudTriangle( const double x1, const double y1,
 		       divisions, depth );
 }
 
-} // namespace LibBoard
+} // namespace PlaneDraw

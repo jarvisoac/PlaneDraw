@@ -27,13 +27,13 @@
 #include "board/Point.h"
 #include <limits>
 
-namespace LibBoard {
+namespace PlaneDraw {
 Point Point::Infinity( std::numeric_limits<double>::infinity(),
                        std::numeric_limits<double>::infinity());
 }
 
 std::ostream &
-operator<<( std::ostream & out, const LibBoard::Point & p )
+operator<<( std::ostream & out, const PlaneDraw::Point & p )
 {
   return out << "Point(" << p.x << "," << p.y << ")";
 }

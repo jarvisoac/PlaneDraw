@@ -35,7 +35,7 @@
 #undef max
 #endif
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 //
 // Definition of the ShapeList methods.
@@ -834,4 +834,4 @@ Group::operator=( const Group & other )
 
 std::size_t Group::_clippingCount = 0;
 
-} // namespace LibBoard
+} // namespace PlaneDraw

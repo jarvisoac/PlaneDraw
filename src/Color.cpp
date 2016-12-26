@@ -30,7 +30,7 @@
 #include <cmath>
 using std::string;
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 const Color Color::Null(false);
 const Color Color::Black((unsigned char)0,(unsigned char)0,(unsigned char)0);
@@ -160,4 +160,4 @@ Color::tikz() const
 
 
 
-} // namespace LibBoard
+} // namespace PlaneDraw

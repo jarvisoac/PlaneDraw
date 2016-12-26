@@ -67,7 +67,7 @@ const float pageSizes[][2] = { { 0.0f, 0.0f },               // BoundingBox
 const float ppmm = 72.0f / 25.4f;
 }
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 const double Board::Degree =  3.14159265358979323846 / 180.0;
 
@@ -1302,7 +1302,7 @@ Board::save(const char * filename, PageSize size, double margin , Unit unit) con
   }
 }
 
-} // namespace LibBoard;
+} // namespace PlaneDraw;
 
 /**
  * @example examples/arithmetic.cpp

@@ -30,7 +30,7 @@
 #include <iostream>
 #include "Point.h"
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 class TransformMatrix {
 public:
@@ -67,7 +67,7 @@ private:
   double _m21, _m22, _m23;
 };
 
-} // namespace LibBoard
+} // namespace PlaneDraw
 
 #include "TransformMatrix.ih"
 

@@ -29,7 +29,7 @@
 #include <ostream>
 #include <string>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 /**
  * Color structure.

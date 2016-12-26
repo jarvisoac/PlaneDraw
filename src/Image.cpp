@@ -36,9 +36,9 @@
 #include <Magick++.h>
 #endif
 
-namespace LibBoard {
+namespace PlaneDraw {
 
-const std::string LibBoard::Image::_name("Image");
+const std::string PlaneDraw::Image::_name("Image");
 
 Image::Image(const char * filename,
              double left, double top, double width, double height, int depth)
@@ -261,4 +261,4 @@ Image::flushTikZ(std::ostream & stream, const TransformTikZ & transform) const
   Tools::error << "Image::flushTikZ(): not available.\n";
 }
 
-} // namespace LibBoard
+} // namespace PlaneDraw

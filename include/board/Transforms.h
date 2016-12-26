@@ -31,7 +31,7 @@
 #include <cmath>
 #include "TransformMatrix.h"
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 struct Rect;
 struct Shape;
@@ -140,6 +140,6 @@ struct TransformTikZ : public TransformSVG {
 
 #include "Transforms.ih"
 
-} // namespace LibBoard
+} // namespace PlaneDraw
 
 #endif /* _TRANSFORMS_H_ */

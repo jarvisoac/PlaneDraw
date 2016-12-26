@@ -28,7 +28,7 @@
 #include "board/Point.h"
 #include <cmath>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 TransformMatrix
 TransformMatrix::translation(double dx, double dy)
@@ -139,4 +139,4 @@ void TransformMatrix::flushEPS(std::ostream & out) const
 }
 
 
-} // namespace LibBoard
+} // namespace PlaneDraw

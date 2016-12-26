@@ -32,7 +32,7 @@
 #include <vector>
 #include <iostream>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 /**
  * The path structure.
@@ -324,10 +324,10 @@ Path::setClosed( bool closed )
   _closed = closed;
 }
 
-} // namespace LibBoard  
+} // namespace PlaneDraw  
 
 
-std::ostream & operator<<( std::ostream & out, const LibBoard::Path & path );
+std::ostream & operator<<( std::ostream & out, const PlaneDraw::Path & path );
 
 #endif /* _PATH_H_ */
 

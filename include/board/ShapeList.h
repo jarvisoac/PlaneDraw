@@ -34,7 +34,7 @@
 #define override
 #endif
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 struct Group;
 
@@ -391,7 +391,7 @@ private:
 
 #include "ShapeList.ih"
 
-} // namespace LibBoard
+} // namespace PlaneDraw
 
 
 #if __cplusplus<201100

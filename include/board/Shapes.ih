@@ -24,7 +24,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace LibBoard {
+namespace PlaneDraw {
 Shape::Shape( Color penColor, Color fillColor,
               double lineWidth,
               LineStyle style,
@@ -252,4 +252,4 @@ Rectangle::Rectangle( const Rect & rect,
 }
 
 
-} // namespace LibBoard
+} // namespace PlaneDraw

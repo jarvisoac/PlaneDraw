@@ -31,7 +31,7 @@
 #include <iostream>
 #include <vector>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 /**
  * The Point structure.
@@ -365,6 +365,6 @@ Point::operator-() const
 
 } // mamespace LibBoard
 
-std::ostream & operator<<( std::ostream & out, const LibBoard::Point & p );
+std::ostream & operator<<( std::ostream & out, const PlaneDraw::Point & p );
 
 #endif // _POINT_H_

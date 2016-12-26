@@ -71,7 +71,7 @@ const char * xFigDashStylesTikZ[] = {
 };
 }
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 extern const char * XFigPostscriptFontnames[];
 
@@ -2299,4 +2299,4 @@ Text::boundingBox( LineWidthFlag ) const
   return _box.boundingBox();
 }
 
-} // namespace LibBoard
+} // namespace PlaneDraw

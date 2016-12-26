@@ -38,7 +38,7 @@
 #include "board/Image.h"
 #include "board/ShapeList.h"
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 /**
  * The Board class.
@@ -987,7 +987,7 @@ protected:
   Color _backgroundColor;       /**< The color of the background. */
   Path _clippingPath;
 };
-} // namespace LibBoard
+} // namespace PlaneDraw
 
 #include "board/Board.ih"
 

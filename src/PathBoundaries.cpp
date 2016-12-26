@@ -30,7 +30,7 @@
 #include <iterator>
 #include <set>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 namespace Tools {
 
@@ -380,4 +380,4 @@ pathBoundingBox(const Path & path, double strokeWidth, Shape::LineCap lineCap, S
 
 }  // namespace Tools;
 
-}  // namespace LibBoard;
+}  // namespace PlaneDraw;

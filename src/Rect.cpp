@@ -26,7 +26,7 @@
 #include "BoardConfig.h"
 #include "board/Rect.h"
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 Rect
 operator||( const Rect & rectA, const Rect & rectB )
@@ -99,10 +99,10 @@ Rect::grow(double margin)
   return *this;
 }
 
-} // namespace LibBoard
+} // namespace PlaneDraw
 
 std::ostream &
-operator<<( std::ostream & out, const LibBoard::Rect & rect )
+operator<<( std::ostream & out, const PlaneDraw::Rect & rect )
 {
   out << "Rect(" << rect.left << "," << rect.top
       << "+" << rect.width << "x" << rect.height << ")";

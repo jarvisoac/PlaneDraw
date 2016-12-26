@@ -29,7 +29,7 @@
 #include <algorithm>
 #include <iterator>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 Path &
 Path::pop_back()
@@ -324,10 +324,10 @@ Path::flush(std::ostream & out) const
   return out;
 }
 
-} // namespace LibBoard
+} // namespace PlaneDraw
 
 std::ostream &
-operator<<( std::ostream & out, const LibBoard::Path & path )
+operator<<( std::ostream & out, const PlaneDraw::Path & path )
 {
   return path.flush(out);
 }

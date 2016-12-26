@@ -33,17 +33,17 @@
 #include <cstdlib>
 #include <cstdio>
 
-LibBoard::Tools::MessageStream LibBoard::Tools::notice( std::cerr, "Information: " );
+PlaneDraw::Tools::MessageStream PlaneDraw::Tools::notice( std::cerr, "Information: " );
 
-LibBoard::Tools::MessageStream LibBoard::Tools::warning( std::cerr, "Warning: " );
+PlaneDraw::Tools::MessageStream PlaneDraw::Tools::warning( std::cerr, "Warning: " );
 
-LibBoard::Tools::MessageStream LibBoard::Tools::error( std::cerr, "Error: " );
+PlaneDraw::Tools::MessageStream PlaneDraw::Tools::error( std::cerr, "Error: " );
 
 namespace {
 unsigned long boardRandNext = time(0);
 }
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 namespace Tools {
 
@@ -229,4 +229,4 @@ boardSRand(unsigned int seed) {
 
 }  // namespace Tools;
 
-}  // namespace LibBoard;
+}  // namespace PlaneDraw;

@@ -24,7 +24,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 TransformMatrix::TransformMatrix()
 {
@@ -39,4 +39,4 @@ TransformMatrix::TransformMatrix( double m11, double m12, double m13,
 {
 }
 
-} // namespace LibBoard;
+} // namespace PlaneDraw;

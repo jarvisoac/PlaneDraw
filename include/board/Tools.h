@@ -38,7 +38,7 @@
 #define secured_sprintf snprintf
 #endif // defined( _MSC_VER )
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 namespace Tools {
 
@@ -116,7 +116,7 @@ unsigned int boardRand();
 
 }  // namespace Tools
 
-}  // namespace LibBoard
+}  // namespace PlaneDraw
 
 #include "Tools.ih"
 

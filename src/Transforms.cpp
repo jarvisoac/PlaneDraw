@@ -36,7 +36,7 @@ const float ppmm = 72.0f / 25.4f;
 const float fig_ppmm = 1143 / 25.4f;
 }
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 //
 // Transform
@@ -310,4 +310,4 @@ double TransformSVG::deltaY() const
   return _height - _deltaY;
 }
 
-} // namespace LibBoard
+} // namespace PlaneDraw

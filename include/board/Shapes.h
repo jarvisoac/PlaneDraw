@@ -51,7 +51,7 @@
 #define override
 #endif
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 struct ShapeVisitor;
 
@@ -2001,7 +2001,7 @@ protected:
 bool shapeGreaterDepth( const Shape *s1, const Shape *s2 );
 
 
-} // namespace LibBoard
+} // namespace PlaneDraw
 
 /*
  * Inline methods

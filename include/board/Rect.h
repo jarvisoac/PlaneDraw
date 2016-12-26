@@ -29,7 +29,7 @@
 #include <iostream>
 #include "board/Point.h"
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 /**
  * The Rectangle structure.
@@ -122,6 +122,6 @@ Rect operator&&( const Rect & rectA, const Rect & rectB );
  *
  * @return The output stream.
  */
-std::ostream & operator<<( std::ostream & out, const LibBoard::Rect & rect );
+std::ostream & operator<<( std::ostream & out, const PlaneDraw::Rect & rect );
 
 #endif // _RECT_H_

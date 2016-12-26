@@ -29,7 +29,7 @@
 #include "board/TransformMatrix.h"
 #include <string>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 /**
  * Image structure.
@@ -244,7 +244,7 @@ Image::~Image()
 {}
 
 
-} // namespace LibBoard
+} // namespace PlaneDraw
 
 #endif /* _SHAPE_H_ */
 

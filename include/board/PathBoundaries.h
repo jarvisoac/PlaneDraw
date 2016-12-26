@@ -30,7 +30,7 @@
 #include "board/Point.h"
 #include "board/Shapes.h"
 #include "board/Rect.h"
-namespace LibBoard {
+namespace PlaneDraw {
 
 struct Path;
 
@@ -70,6 +70,6 @@ Rect pathBoundingBox(const Path & path,
 
 }  // namespace Tools
 
-}  // namespace LibBoard
+}  // namespace PlaneDraw
 
 #endif /* _PATH_BOUNDARIES_H_ */

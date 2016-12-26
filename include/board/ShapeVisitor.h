@@ -31,7 +31,7 @@
 #endif
 
 
-namespace LibBoard {
+namespace PlaneDraw {
 
   struct Shape;
   struct ShapeList;

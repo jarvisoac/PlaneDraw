@@ -24,7 +24,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 namespace Tools {
 
@@ -48,4 +48,4 @@ void secured_ctime( char * str, const time_t * t, size_t count )
 
 } // namespace Tools
 
-} // namespace LibBoard
+} // namespace PlaneDraw

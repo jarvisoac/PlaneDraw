@@ -28,7 +28,7 @@
 
 #include <cmath>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
 /*
  * Postscript Type 1 base fonts :

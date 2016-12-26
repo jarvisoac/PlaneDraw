@@ -28,9 +28,9 @@
 #include "board/Shapes.h"
 #include <iostream>
 
-namespace LibBoard {
+namespace PlaneDraw {
 
-BoundingBoxExtractor::BoundingBoxExtractor( LibBoard::ShapeList & shapeList )
+BoundingBoxExtractor::BoundingBoxExtractor( PlaneDraw::ShapeList & shapeList )
   :_shapeList(shapeList)
 {
 }
